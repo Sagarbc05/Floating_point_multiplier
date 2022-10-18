@@ -6,8 +6,8 @@
 // Design Name: 24- bit mantissa multiplier using Modified Booth Encoding.
 // Module Name:    mul_24bit
 // Project Name: submodule of single precision Floating Point Multiplier
-// Target Devices: Xilinx FPGAs
-// Tool versions: Xilinx ISE 14.
+// Target Devices: Xilinx FPGAs :- Spartan-6, Artix-7 etc.
+// Tool versions: Xilinx ISE 14.7
 // Description: 24 x 24 bit multiplier is designed by employing modified booth
 //              encoding and final stage reduction is done by using RCA adder.
 //              A novel  and  efficient  way  is developed for partial product
