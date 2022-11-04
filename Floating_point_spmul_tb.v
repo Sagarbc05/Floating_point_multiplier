@@ -22,25 +22,29 @@ initial begin
     a = 32'h512a83d2;
     b = 32'h2895468e;
     $display("   ");
-    $display (" multiplicand = %b  multiplier = %b", a, b);
-    #2 $display ("final_product = %b under_flow = %b, over_flow = %b", y, u_flow, o_flow);
+    $display (" multiplicand = %b,  multiplier = %b", a, b);
+    #2 $display (" final_product = %b, under_flow = %b, over_flow = %b", y, u_flow, o_flow);
+    $display("_______________________________________________________________________");
 
     a = 32'h4fc8f240;
     b = 32'h3cb63e8e;
     $display("   ");
-    $display (" multiplicand = %b  multiplier = %b", a, b);
-    #2 $display ("final_product = %b under_flow = %b, over_flow = %b", y, u_flow, o_flow);
+    $display (" multiplicand = %b,  multiplier = %b", a, b);
+    #2 $display (" final_product = %b, under_flow = %b, over_flow = %b", y, u_flow, o_flow);
+    $display("_______________________________________________________________________");
 
     a = 32'h6274a8df;
     b = 32'h79da256c;
     $display("   ");
-    $display (" multiplicand = %b  multiplier = %b", a, b);
-    #2 $display ("final_product = %b under_flow = %b, over_flow = %b", y, u_flow, o_flow);
+    $display (" multiplicand = %b,  multiplier = %b", a, b);
+    #2 $display (" final_product = %b, under_flow = %b, over_flow = %b", y, u_flow, o_flow);
+    $display("_______________________________________________________________________");
 
     a = 32'h226b4f5e;
     b = 32'h14977ee1;
     $display("   ");
-    $display (" multiplicand = %b  multiplier = %b", a, b);
-    #2 $display ("final_product = %b under_flow = %b, over_flow = %b", y, u_flow, o_flow);
+    $display (" multiplicand = %b,  multiplier = %b", a, b);
+    #2 $display (" final_product = %b, under_flow = %b, over_flow = %b", y, u_flow, o_flow);
+    $display("_______________________________________________________________________");
 end
 endmodule

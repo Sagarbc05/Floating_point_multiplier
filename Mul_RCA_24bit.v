@@ -12,6 +12,8 @@
 //              encoding and final stage reduction is done by using RCA adder.
 //              A novel  and  efficient  way  is developed for partial product
 //              generation and reduction.
+// Submodules: Booth Encoder, Partial Product Generator, Walace tree, Full Adder,
+//             Half Adder
 // Version : v1.0
 //
 //////////////////////////////////////////////////////////////////////////////////
@@ -513,7 +515,7 @@ Half_Adder H39 (y[0], t[0], a[0], b[0]);
 
 generate for (i = 1; i < 42; i = i + 1)
 begin: F_adder12
-Full_Adder FA11 (y[i], t[i], a[i], b[i], t[i-1]);  // 42-FAs
+Full_Adder FA11 (y[i], t[i], a[i], b[i], t[i-1]);  // 41-FAs
 end
 endgenerate   
 

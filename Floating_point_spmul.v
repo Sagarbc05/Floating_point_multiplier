@@ -13,11 +13,13 @@
 //              modified booth encoding, Wallace tree and final stage reduction is done by using 
 //              RCA adder. A novel   and   efficient   method  is developed for partial product
 //              generation and reduction. Mantissa multiplier module is designed and implemented 
-//              in mul_24bit.v file   
+//              in mul_24bit.v file 
+// Submodules : Exponent Adder, Ripple Carry Adder, Ripple carry subtractor, 24-bit multiplier
+//              Ripple carry half adder, Full Adder, Half Adder
 // Version : v1.0
 //////////////////////////////////////////////////////////////////////////////////
 
-`include "mul_24bit.v"    // 24 bit mantissa multiplier 
+`include "Mul_SKS_24bit.v"    // 24 bit mantissa multiplier 
 
 // Top module begins here
 module floating_point_spmul (f_prod, u_flow, o_flow, a, b);
